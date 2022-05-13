@@ -1,36 +1,44 @@
 ### List of Views, Sections, and Components:
 ---
+- **MainHeader.vue**
+  - logo
+  - nav
+    - nav links
+
+---
 - HomeView.vue [Forside]
   - WelcomeSection.vue
-    - Heading1.vue
+    - NavTo.vue
+    - Heading2.vue
     - TextArea.vue
     - AnnouncementBanner.vue
   - ScheduleSection.vue
+    - NavTo.vue
     - Heading2.vue
     - BusinessHours.vue
     - ScheduleTable.vue
   - NewsSection.vue
+    - NavTo.vue
     - Heading2.vue
     - TextArea.vue
     - NewsArticle.vue (for-loop)
-  - ContactSection.vue
-    - Heading2.vue
-    - GoogleMap.vue
-    - ContactInfobox.vue
 ---
 - FrolView.vue [Frolerne]
   - ServicesSection.vue
-    - Heading1.vue
+    - NavTo.vue
+    - Heading2.vue
     - Disclaimer.vue
     - MenuList.vue
   - FrolSection.vue
+    - NavTo.vue
     - Heading2.vue
     - FrolComponent.vue (for-loop)
-  - ContactSection.vue
-    - Heading2.vue
-    - GoogleMap.vue
-    - ContactInfobox.vue
-
+---
+- **MainFooter.vue**
+    - ContactSection.vue
+      - Heading2.vue
+      - GoogleMap.vue
+      - ContactInfobox.vue
 
 <style>
     
