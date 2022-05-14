@@ -8,9 +8,9 @@
 
 <script>
 // @ is an alias to /src
-import WelcomeSection from "@/components/WelcomeSection.vue"
-import ScheduleSection from "@/components/ScheduleSection.vue"
-import NewsSection from "@/components/NewsSection.vue"
+import WelcomeSection from "@/sections/WelcomeSection.vue"
+import ScheduleSection from "@/sections/ScheduleSection.vue"
+import NewsSection from "@/sections/NewsSection.vue"
 
 export default {
   name: "HomeView",

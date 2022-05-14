@@ -1,19 +1,19 @@
 <template>
     <section>
-        <NavTo section="frol"/>
-        <Heading2 heading="Frol"/>
+        <NavTo section="Frol"/>
+        <HeadingTwo heading="Frol"/>
     </section>
 </template>
 
 <script>
 import NavTo from "@/components/NavTo.vue"
-import Heading2 from "@/components/Heading2.vue"
+import HeadingTwo from "@/components/HeadingTwo.vue"
 
 export default {
     name: "FrolSection",
     components: {
         NavTo,
-        Heading2,
+        HeadingTwo,
     }
 }
 </script>

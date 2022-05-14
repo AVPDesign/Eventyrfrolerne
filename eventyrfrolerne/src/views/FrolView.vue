@@ -7,8 +7,8 @@
 
 <script>
 // @ is an alias to /src
-import ServicesSection from "@/components/ServicesSection.vue"
-import FrolSection from "@/components/FrolSection.vue"
+import ServicesSection from "@/sections/ServicesSection.vue"
+import FrolSection from "@/sections/FrolSection.vue"
 
 export default {
   name: "HomeView",

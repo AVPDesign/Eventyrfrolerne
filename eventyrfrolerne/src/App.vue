@@ -21,6 +21,13 @@ export default {
 </script>
 
 <style lang="scss">
+// Variables
+:root {
+  --primary: #424242;
+  --secondary: #8700e0;
+  --tertiary: #fff;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

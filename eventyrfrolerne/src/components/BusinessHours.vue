@@ -1,13 +1,10 @@
 <template>
-    <h2>{{ heading }}</h2>
+    <div></div>
 </template>
 
 <script>
 export default {
-  name: "NavTo",
-  props: {
-      heading: String,
-  }
+  name: "BusinessHours",
 }
 </script>
 

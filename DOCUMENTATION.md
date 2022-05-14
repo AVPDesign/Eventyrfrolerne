@@ -39,7 +39,12 @@
       - Heading2.vue
       - GoogleMap.vue
       - ContactInfobox.vue
+---
 
-<style>
-    
-</style>
+# Styling:
+
+Styling is written internally on individual components as scoped SCSS, for simplicitys sake.
+
+Global variables are defined as regular CSS variables in the "root" element in "App.vue".
+
+Locally, variables for individual components are defined as SCSS variables, where the the value is equal to the the corresponding global CSS variable, ie.: "$bg-color: var(--primary-color)".  
